@@ -1,12 +1,12 @@
 {
-  "name": "cli",
+  "name": "frw-cli",
   "version": "1.0.0",
   "description": "learn",
   "main": "index.js",
   "repository": "https://github.com/lin-Fore-end/cli.git",
   "author": "fangrenwen <fangrenwen@guanmai.cn>",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "dependencies": {
     "chalk": "^2.4.2",
     "commander": "^3.0.1",
@@ -17,6 +17,6 @@
     "ora": "^3.4.0"
   },
   "bin": {
-    "test": "./bin/index.js"
+    "cli": "./bin/index.js"
   }
 }
