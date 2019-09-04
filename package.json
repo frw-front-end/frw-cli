@@ -17,6 +17,6 @@
     "ora": "^3.4.0"
   },
   "bin": {
-    "cli": "index.js"
+    "cli": "./bin/index.js"
   }
 }
