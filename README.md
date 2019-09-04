@@ -1,2 +1,2 @@
-# cli
-脚手架
+# frw-cli
+脚手架demo
