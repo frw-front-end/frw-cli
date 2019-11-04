@@ -11,7 +11,9 @@ const symbols = require('log-symbols');
 // 开始下载
 const spinner = ora('正在下载模板...');
 
-program.version('1.0.0', '-v, --version')
+const version = JSON.parse(fs.readFileSync(path.resolve(process.cwd(), 'package.json')).toString()).version
+
+program.version(version, '-v, --version')
     .command('create <name>')
     .action((name) => {
       if (fs.existsSync(name)) {
